@@ -1,0 +1,314 @@
+body {
+  margin: 0px;
+}
+
+a {
+    text-decoration:none; 
+}
+
+@media screen and (min-width: 767px) {
+
+.header {
+  width: auto;
+  padding: 20px 0;
+}
+
+.header_pc {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px;
+}
+
+
+.first_view {
+  background-image: url(//camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
+  background-size: cover;
+  height: 650px;
+}
+
+.service_logo {
+  width: auto;
+  height: 20px;
+}
+
+.menu_all {
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  text-align: center;
+  width: 100%;
+}
+
+.menu_all :visited{
+  color: black;
+}
+
+.menu_all :hover{
+  opacity: 0.7;
+}
+
+.menu_all > a{
+  margin-right: 40px; 
+}
+
+#counseling_button {
+  width: 150px;
+  height: auto;
+  color: #ffffff;
+  background-color: #EF810F;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0px;
+}
+
+.overview_container {
+  display: flex;
+  position: relative;
+}
+
+
+.overview_menu > h1 {
+  display: flex;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  left: 210px;
+}
+
+
+.stong_point_img {
+  position: absolute;
+  left: 200px;
+  top: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.stong_point_img > img {
+  padding: 5px;
+}
+
+#counseling_button_under {
+  position: absolute;
+  width: 450px;
+  height: 70px;
+  left: 200px;
+  top: 375px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  background-color: #EF810F;
+  border-radius: 20px;
+}
+
+#counseling_button_under:hover{
+  opacity: 0.7;
+}
+
+#counseling_button_under:visited{
+  color: #fff;
+}
+
+.attention_message {
+  position: absolute;
+  left: 200px;
+  top: 475px;
+  color: #afafb0;
+  font-size: 9px;
+}
+
+.subsidy_container {
+  width: auto;
+  height: 350px;
+  background-color: #EF810F;
+}
+
+.subsidy_main {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.About__video {
+  width: 100%;
+  position: absolute;
+  right: 550px;
+}
+
+.subsidy_message {
+  position: absolute;
+  left: 730px;
+  top: 25px;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.subsidy_message > div {
+  width: 488px;
+  height: 104px;
+}
+
+.subsidy_link {
+  width: 150px;
+  height: 80.27px;
+}
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+.header {
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 15px;
+}
+  
+ .header_menu {
+   display: none;
+ }
+ 
+ .humbergar_menu {
+   display: flex;
+   position: relative;
+   width: 31px;
+   height: 21px;
+   cursor: pointer;
+   bottom: 2px;
+ }
+ 
+ .humbergar_bar {
+   display: block;
+   position: absolute;
+   left: 0px;
+   width: 30px;
+   height: 3px;
+   background-color: #333;
+   border-radius: 1px;
+   
+ }
+ 
+ .humbergar_bar:nth-child(1) {
+   top: 0px;
+ }
+ 
+ .humbergar_bar:nth-child(2) {
+   top: 50%;
+   transform: translateY(-50%);
+ }
+ 
+ .humbergar_bar:nth-child(3) {
+   top: 100%;
+   transform: translateY(-100%);
+ }
+ 
+ .service_logo {
+  width: auto;
+  height: 20px;
+}
+ 
+ .overview_container {
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg.webp);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+ }
+ 
+.overview_menu {
+  width: 100%;
+  padding-top: 550px;
+}
+
+.overview_menu > h1 {
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+}
+
+.stong_point_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.stong_point_img > img {
+  padding: 5px;
+}
+
+#counseling_button_under {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  background-color: #EF810F;
+  border-radius: 50px;
+}
+
+#counseling_button_under:hover{
+  opacity: 0.7;
+}
+
+#counseling_button_under:visited{
+  color: #fff;
+}
+
+.attention_message {
+  color: #afafb0;
+  font-size: 9px;
+  margin: 20px;
+}
+
+.subsidy_container {
+  padding: 20px;
+  background-color: #EF810F;
+}
+
+.subsidy_main {
+  display: flex;
+  width: 100%;
+  background-color: #EF810F;
+  position: relative;
+  justify-content: center;
+}
+
+.About__video {
+  width: 100%;
+}
+
+.subsidy_message {
+  color: #fff;
+  width: 100%;
+  padding: 20px 0px;
+}
+
+.subsidy_message > h2 {
+  font-size: 38px;
+  margin: 10px 0px;
+}
+
+.subsidy_link_container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.subsidy_link {
+  width: 158px;
+}
+  
+}
