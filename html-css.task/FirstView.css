@@ -53,8 +53,9 @@ a {
   opacity: 0.7;
 }
 
-.menu_all > a{
+.menu_all > a {
   margin-right: 40px; 
+  color: black;
 }
 
 #counseling_button {
